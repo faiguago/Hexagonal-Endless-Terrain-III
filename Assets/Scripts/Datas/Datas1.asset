@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef47679a94943564bb75ff71aa645036, type: 3}
+  m_Name: Datas1
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  tVars:
+    terrainType: 1
+    size: 145
+    scale: 10
+    height: 300
+    gridSize: 2
+    colLOD: 2
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 0, b: 0, a: 1}
+      key1: {r: 0, g: 1, b: 0, a: 1}
+      key2: {r: 0, g: 1, b: 0, a: 0}
+      key3: {r: 1, g: 0, b: 0, a: 0}
+      key4: {r: 1, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 1, b: 0, a: 0}
+      key6: {r: 0, g: 1, b: 0, a: 0}
+      key7: {r: 1, g: 0, b: 0, a: 0}
+      ctime0: 6772
+      ctime1: 8126
+      ctime2: 10015
+      ctime3: 11332
+      ctime4: 12255
+      ctime5: 16691
+      ctime6: 20996
+      ctime7: 32240
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 8
+      m_NumAlphaKeys: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: -0.011299133
+        value: -0.036132812
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.19145791
+        value: 0.010538474
+        inSlope: 1.001358
+        outSlope: 1.001358
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.31948352
+        value: 0.14855656
+        inSlope: 0.24034208
+        outSlope: 0.24034208
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.44031098
+        value: 0.13704313
+        inSlope: 0.25734305
+        outSlope: 0.25734305
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.60577756
+        value: 0.2370713
+        inSlope: 0.5370802
+        outSlope: 0.5370802
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.72716737
+        value: 0.4757285
+        inSlope: 2.7895455
+        outSlope: 2.7895455
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.87448853
+        value: 0.7065247
+        inSlope: 1.659989
+        outSlope: 1.659989
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0171509
+        value: 0.8730736
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    material: {fileID: 2100000, guid: be81889dcaf01b342b83e27a12a0cc2e, type: 2}
+  nVars:
+    frequency: 10
+    octaves: 8
+    lacunarity: 1.92
+    persistence: 0.5
+    seed: 83
